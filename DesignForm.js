@@ -14,12 +14,12 @@ export default function DesignForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Form submitted! (In full version, this sends data to backend or Firebase)');
+    alert('Design submitted! This will be wired to Firebase or email in the next step.');
   };
 
   return (
-    <form onSubmit={handleSubmit} className="p-4 bg-black text-crimson max-w-xl mx-auto">
-      <h2 className="text-2xl mb-4">Submit Your Custom Design</h2>
+    <form onSubmit={handleSubmit} className="p-4 max-w-xl mx-auto">
+      <h2 className="text-2xl mb-4">Submit Your Design</h2>
       <input name="name" placeholder="Your Name" onChange={handleChange} required className="block w-full mb-2 p-2" />
       <input name="email" placeholder="Email" type="email" onChange={handleChange} required className="block w-full mb-2 p-2" />
       <input name="phone" placeholder="Phone" onChange={handleChange} className="block w-full mb-2 p-2" />

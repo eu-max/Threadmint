@@ -1,6 +1,5 @@
 import React from 'react';
 
-// Sample submissions (placeholder for database)
 const sampleSubmissions = [
   { id: 1, name: 'Alice', email: 'alice@example.com', style: 'Goth', notes: 'Black lace dress' },
   { id: 2, name: 'Bob', email: 'bob@example.com', style: 'Urban', notes: 'Hoodie with zips' }

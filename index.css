@@ -1,1 +1,10 @@
-body { background-color: black; color: crimson; font-family: sans-serif; }
+body {
+  background-color: black;
+  color: crimson;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+button {
+  cursor: pointer;
+}
